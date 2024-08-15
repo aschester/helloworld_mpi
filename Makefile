@@ -1,13 +1,3 @@
-##
-# To build:
-#     MPIROOT=/path/to/mpi/install make
-# To run:
-#     OMPI_MCA_btl=^openib PATH=/path/to/mpi/install/bin/:$PATH    \
-#     LD_LIBRARY_PATH=/path/to/mpi/install/lib/:$LD_LIBRARY_PATH   \
-#     mpirun -np 4 helloworld_mpi
-# OMPI_MCA_btl=^openib may or may not be needed depending on the host system.
-#
-
 # Compiler:
 
 CXX = $(MPIROOT)/bin/mpicxx
